@@ -69,28 +69,28 @@ The Rubber Ducky Rubber Tire Company (RDRTC) starts off as a small company with 
     ````
     find .
     ````
-11. Use your favorite editor to create a file in the project directory. **Yes please use this file name, it will matter later.**
-    ````
-    nano README.md
-    ````
-12. Documentation is critical to any IT systems, networks, software, etc. Add some text to this file that will help future readers understand what this project is for. Save the document and return to the command line.
-
-13. Make git aware of this new file by "adding" it to the git index.
-    ````
-    git add README.md
-    ````
-14. Commit this addition to the git repo with the commit command. Note the error message and move on to the next instruction.
-    ````
-    git commit -m "Test Comment"
-    ````
-15. Git often has helpful commands that the software recommends running next. On accounts that have not used Git before, the system requires editing the git configuration to include the users name and email address. Follow the instructions configure the user information.
-
-16. Re-run the git commit command. Git demands a comment to be included in the commit in the form an nano editor window. Add some simple text describing the action being taken, write the file and exit the editor to complete the commit.
-
-17. **[Pro Tip]** To change the default editor to Nano. Just in case VIM isn't to your liking.
+11. **[Pro Tip]** To change the default editor to Nano. Just in case VIM isn't to your liking.
     ````
     git config --global core.editor "nano"
     ````
+12. Use your favorite editor to create a file in the project directory. **Yes please use this file name, it will matter later.**
+    ````
+    nano README.md
+    ````
+13. Documentation is critical to any IT systems, networks, software, etc. Add some text to this file that will help future readers understand what this project is for. Save the document and return to the command line.
+
+14. Make git aware of this new file by "adding" it to the git index.
+    ````
+    git add README.md
+    ````
+15. Commit this addition to the git repo with the commit command. Note the error message and move on to the next instruction.
+    ````
+    git commit -m "Test Comment"
+    ````
+16. Git often has helpful commands that the software recommends running next. On accounts that have not used Git before, the system requires editing the git configuration to include the users name and email address. Follow the instructions configure the user information.
+17. 
+18. Re-run the git commit command. Git demands a comment to be included in the commit in the form an nano editor window. Add some simple text describing the action being taken, write the file and exit the editor to complete the commit.
+
 18. Edit the README.md and add an additional text.
 
 19. There are now two copies of the README.md file on the local system. One in the working tree which is visible to the user and one in the index which is not. It is important to keep these two file insync with each other. The following git command will show the status of the two copies.
