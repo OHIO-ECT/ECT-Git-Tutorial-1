@@ -81,7 +81,7 @@ The Rubber Ducky Rubber Tire Company (RDRTC) starts off as a small company with 
     ````
 14. Commit this addition to the git repo with the commit command. Note the error message and move on to the next instruction.
     ````
-    git commit
+    git commit -m "Test Comment"
     ````
 15. Git often has helpful commands that the software recommends running next. On accounts that have not used Git before, the system requires editing the git configuration to include the users name and email address. Follow the instructions configure the user information.
 
