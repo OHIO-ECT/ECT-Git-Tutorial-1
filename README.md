@@ -88,8 +88,8 @@ The Rubber Ducky Rubber Tire Company (RDRTC) starts off as a small company with 
     git commit -m "Test Comment"
     ````
 16. Git often has helpful commands that the software recommends running next. On accounts that have not used Git before, the system requires editing the git configuration to include the users name and email address. Follow the instructions configure the user information.
-17. 
-18. Re-run the git commit command. Git demands a comment to be included in the commit in the form an nano editor window. Add some simple text describing the action being taken, write the file and exit the editor to complete the commit.
+
+17. Re-run the git commit command. Git demands a comment to be included in the commit in the form an nano editor window. Add some simple text describing the action being taken, write the file and exit the editor to complete the commit.
 
 18. Edit the README.md and add an additional text.
 
