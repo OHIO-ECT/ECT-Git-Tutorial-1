@@ -10,7 +10,7 @@
 
 ## Process
 
-1. Deploy the GitHub command line application and authenticate the local unix account to the GitHub account.
+1. Deploy the GitHub command line application and authenticate the local Linux/Unix account to the GitHub account.
 
 ```sudo apt install gh```
 
@@ -18,7 +18,7 @@
 
 ```gh auth login```
 
-3. Follow the following prompts
+3. Follow the following prompts.
 
 4. Select GitHub.com
 
@@ -35,7 +35,7 @@
 > SSH
 ```
 
-6. Enter Y to enter a new key.  n to not generate a key or selecting a key if one is presented are also options, but requires the user to understand the consequences of advanced key management.
+6. Enter Y to enter a new key.  Use N to not generate a key or selecting a key if one is presented are also options, but requires the user to understand the consequences of advanced key management.
 
 ```
 ? Generate a new SSH key to add to your GitHub account? (Y/n) Y
@@ -63,7 +63,7 @@ The Enter to open github.com in your browser...
 
 10. Return to GitHub SSH keys page at https://github.com/settings/keys.  Find the key titled "GitHub CLI" with a recent added date.  Select the "Configure SSO" dropdown and then select "Authorize" for OHIO-ECT.
 
-11. Follow the Ohio University Single sign on process
+11. Follow the Ohio University Single sign on process.
 
 12. Configure Git user info with the following commands
 ```
