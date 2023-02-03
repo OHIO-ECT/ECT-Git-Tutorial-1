@@ -21,11 +21,10 @@ sudo apt install -y gh
 gh auth login
 ```
 
-3. Follow the following prompts.
+3. Follow the following prompts. Select GitHub.com (default choice)
 
-4. Select GitHub.com
-
-```? What account do you want to log into?  [Use arrows to move, type to filter]
+```
+? What account do you want to log into?  [Use arrows to move, type to filter]
 > GitHub.com
   GitHub Enterprise Server
 ```
