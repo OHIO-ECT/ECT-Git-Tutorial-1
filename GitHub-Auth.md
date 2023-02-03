@@ -11,15 +11,15 @@
 ## Process
 
 1. Deploy the GitHub command line application and authenticate the local Linux/Unix account to the GitHub account.
-``
+```
 sudo apt install -y gh
-``
+```
 
 2. Setup authentication with the command line tool.
 
-``
+```
 gh auth login
-``
+```
 
 3. Follow the following prompts.
 
