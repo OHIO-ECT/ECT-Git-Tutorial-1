@@ -37,7 +37,9 @@ gh auth login
 > SSH
 ```
 
-6. Enter Y to enter a new key.  Use N to not generate a key or selecting a key if one is presented are also options, but requires the user to understand the consequences of advanced key management.
+6. Press Y to enter a new key. 
+
+(Is this needed?  Use N to not generate a key or selecting a key if one is presented are also options, but requires the user to understand the consequences of advanced key management.)
 
 ```
 ? Generate a new SSH key to add to your GitHub account? (Y/n) Y
@@ -49,7 +51,7 @@ gh auth login
 ? Enter a passphrase for your new SSH key (Optional)
 ```
 
-8. Select the Login with a web browser regardless of the type of terminal these commands are being entered in.
+8. When prompted select "Login with a web browser" option (default choice) regardless of the type of terminal these commands are being entered in.
 
 ```
 ? How would you like to authenticate GitHub CLI?  [Use arrows to move, type to filter]
@@ -57,7 +59,7 @@ gh auth login
    Paste an authentication token
 ```
 
-9. The open browser prompt will only work in certain contexts.  If it doesn't present a web browser to login to github at browse to the following URL on any computer that is already logged into on GitHub: https://github.com/login/device  Enter the one-time code and select "Authorize github"
+9. The "open browser" prompt will only work in certain contexts.  If it doesn't present a web browser to login to github at browse to the following URL on any computer that is already logged into on GitHub: https://github.com/login/device  Enter the one-time code and select "Authorize github"
 
 ```
 The Enter to open github.com in your browser...  
