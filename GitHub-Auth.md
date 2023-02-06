@@ -37,9 +37,7 @@ gh auth login
 > SSH
 ```
 
-6. Press Y to enter a new key. 
-
-(Is this needed?  Use N to not generate a key or selecting a key if one is presented are also options, but requires the user to understand the consequences of advanced key management.)
+6. You will be prompted (as shown below) for a new SSH key. You should do this. Is this needed?  Use N to not generate a key or selecting a key if one is presented are also options, but requires the user to understand the consequences of advanced key management.
 
 ```
 ? Generate a new SSH key to add to your GitHub account? (Y/n) Y
