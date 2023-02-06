@@ -57,25 +57,29 @@ gh auth login
    Paste an authentication token
 ```
 
-9. The "open browser" prompt will only work in certain contexts. Press enter to open the local browser.  If it doesn't present a web browser to login to github at browse to the following URL on any computer that is already logged into on GitHub: https://github.com/login/device  Enter the one-time code and select "Authorize github"
-
+9. The "open browser" prompt will only work in certain contexts. Press enter to open the local browser.  
 ```
 The Enter to open github.com in your browser...  
 ```
 
-10. Return to GitHub SSH keys page at https://github.com/settings/keys.  Find the key titled "GitHub CLI" with a recent added date.  Select the "Configure SSO" dropdown and then select "Authorize" for OHIO-ECT.
+10. If it doesn't present a web browser to login to github at browse to the following URL on any computer that is already logged into on GitHub: https://github.com/login/device  Enter the one-time code and select "Authorize github"
 
-11. Follow the Ohio University Single sign on process.
 
-12. Configure Git user info with the following commands
+11. Return to terminal window that we started on and press enter at "Authentication complete. Press Enter to continue..." to complete the SSH key upload process.
+
+12. Return to GitHub SSH keys page at https://github.com/settings/keys.  Find the key titled "GitHub CLI" with a recent added date.  Select the "Configure SSO" dropdown and then select "Authorize" for OHIO-ECT.
+
+13. Follow the Ohio University Single sign on process.
+
+14. Configure Git user info with the following commands
 ```
 git config --global user.email "<OHIO_EMAIL>"
 git config --global user.name "<FIRSTNAME> <LASTNAME>"
 ```
 
-13. Initial Repo clones are done with gh.  For example:
+15. Initial Repo clones are done with gh.  For example:
 ```
 gh repo clone OHIO-ECT/ITS-4900-SDx-HW-02
 ```
 
-14. The resulting Git repo can be manipulated with standard git commands and workflows.
+16. The resulting Git repo can be manipulated with standard git commands and workflows.
