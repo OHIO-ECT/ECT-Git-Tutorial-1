@@ -57,7 +57,7 @@ gh auth login
    Paste an authentication token
 ```
 
-9. The "open browser" prompt will only work in certain contexts.  If it doesn't present a web browser to login to github at browse to the following URL on any computer that is already logged into on GitHub: https://github.com/login/device  Enter the one-time code and select "Authorize github"
+9. The "open browser" prompt will only work in certain contexts. Press enter to open the local browser.  If it doesn't present a web browser to login to github at browse to the following URL on any computer that is already logged into on GitHub: https://github.com/login/device  Enter the one-time code and select "Authorize github"
 
 ```
 The Enter to open github.com in your browser...  
