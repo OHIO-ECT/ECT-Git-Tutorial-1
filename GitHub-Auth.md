@@ -76,3 +76,8 @@ The Enter to open github.com in your browser...
 git config --global user.email "<OHIO_EMAIL>"
 git config --global user.name "<FIRSTNAME> <LASTNAME>"
 ```
+
+15. The following test should produce the markdown text of the ECT Cheat sheet repo
+```
+gh repo view OHIO-ECT/Lab-Notebook-Cheat-Sheet
+```
