@@ -71,15 +71,8 @@ The Enter to open github.com in your browser...
 
 13. Follow the Ohio University Single sign on process.
 
-14. Configure Git user info with the following commands
+14. In the gHost terminal configure Git user info with the following commands
 ```
 git config --global user.email "<OHIO_EMAIL>"
 git config --global user.name "<FIRSTNAME> <LASTNAME>"
 ```
-
-15. Initial Repo clones are done with gh.  For example:
-```
-gh repo clone OHIO-ECT/ITS-4900-SDx-HW-02
-```
-
-16. The resulting Git repo can be manipulated with standard git commands and workflows.
