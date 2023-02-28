@@ -1,4 +1,4 @@
-# ECT Git Guide
+### Connecting to Github with HTTP or SSH Sessions
 
 ## Goals 
 
